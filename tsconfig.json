@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6"
+    },
+    "files": [
+      "public/app.ts",
+      "public/components/cell/cell.ts",
+      "public/components/grid/grid.ts",
+      "public/components/game/game.ts"
+    ]
+}

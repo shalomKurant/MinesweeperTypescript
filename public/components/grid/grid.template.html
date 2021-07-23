@@ -1,0 +1,10 @@
+<div class="grid-container">
+    <table class="grid">
+        <tr class="row-cell" ng-repeat="rowCells in $ctrl.cellsGrid">
+            <td ng-class="{'bomb' : cell.isBomb, 'clicked' : cell.isClicked, 'game-over' : $ctrl.isGameOver }" 
+            class="cell" ng-click="$ctrl.onCellClicked(this)"
+            ng-repeat="cell in rowCells">{{cell.innerHtml}}</td>
+        </tr>
+    </table>
+</div>
+<!-- <div ng-if="$ctrl.isGameOver">Game Over :(</div> -->

@@ -1,0 +1,22 @@
+.cell {
+    width: 20px;
+    height: 20px;
+    color: blue;
+    border-style: solid;
+    padding: 1px 1px 1px 1px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+.clicked {
+    background-color: rgb(211, 199, 199);
+}
+.clicked.bomb {
+    background-color: rgb(124, 54, 54);
+
+}
+.game-over {
+    pointer-events:none;
+    color:#AAA;
+    background:#F5F5F5;
+}
